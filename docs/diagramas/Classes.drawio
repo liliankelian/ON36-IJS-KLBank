@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T23:04:53.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="0Tub8J-zJDZYvbeJtUmh" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-13T00:26:06.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="NTLPRkrpP9JBQaG09aX2" version="24.6.5" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1120" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,6 +149,65 @@
         </mxCell>
         <mxCell id="nJyLbb4yTB1NgrsR-hbU-44" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nJyLbb4yTB1NgrsR-hbU-41">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fdUfX1gSfuFMq8vSIyxq" name="Página-2">
+    <mxGraphModel dx="1120" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-1" value="Cliente" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-2" value="Conta" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-3" value="Pessoa" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-4" value="Moeda" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-5" value="Movimentação" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-6" value="Gerente" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-7" value="Funcionário" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-8" value="Financiamento" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-9" value="Investimento" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-10" value="Serviços financeiros" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-11" value="Juros" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-12" value="Lucro" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-13" value="Depósito" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-14" value="Saque" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-15" value="Extrato" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="180" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-16" value="Produtor" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yjdkaq4OdecNRPHwHTqb-17" value="Consumidor" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="10" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

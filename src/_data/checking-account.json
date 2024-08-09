@@ -1,0 +1,8 @@
+[
+    {
+        "id":1,
+        "name": "BrasilBank",
+        "balance": 200,
+        "limit": 10
+    }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "ID": 1,
+    "name": "BrasilBank",
+    "balance": 200
+  },
+  {
+    "ID": 2,
+    "balance": 10,
+    "clientID": 1,
+    "limit": 200
+  },
+  {
+    "ID": 2,
+    "balance": 10,
+    "clientID": 1,
+    "rate": 10
+  },
+  {
+    "ID": 3,
+    "balance": 10,
+    "clientID": 2,
+    "type": "savings",
+    "rate": 10
+  },
+  {
+    "ID": 3,
+    "balance": 10,
+    "clientID": 1,
+    "type": "savings",
+    "rate": 10
+  },
+  {
+    "ID": 3,
+    "balance": 10,
+    "clientID": 1,
+    "type": "savings",
+    "rate": 10
+  },
+  {
+    "ID": 3,
+    "balance": 10,
+    "clientID": 1,
+    "type": "checking",
+    "limit": 200
+  }
+]

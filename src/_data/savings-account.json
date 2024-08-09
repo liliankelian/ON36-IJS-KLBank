@@ -1,0 +1,26 @@
+[
+  {
+    "ID": 1,
+    "name": "BrasilBankXXX",
+    "balance": 500,
+    "rate": 0.2
+  },
+  {
+    "ID": 2,
+    "name": "BrasilBank",
+    "balance": 5004,
+    "rate": 0.2
+  },
+  {
+    "ID": 3,
+    "name": "RJBank",
+    "balance": 60000,
+    "rate": 0.2
+  },
+  {
+    "ID": 4,
+    "name": "KLBank",
+    "balance": 200,
+    "rate": 0.2
+  }
+]

@@ -1,5 +1,5 @@
-import { Account } from "src/account/account";
-import { AccountType } from "src/account/account.type";
+import { Account } from "../account/account";
+import { AccountType } from "../account/account.type";
 
 export class CheckingAccount extends Account {
     limit:number;

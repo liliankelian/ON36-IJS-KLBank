@@ -1,20 +1,12 @@
-<<<<<<< HEAD
-import { Injectable } from '@nestjs/common';
-=======
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { ClientRepository } from 'src/_repositories/client.repository';
-
-import { Account } from 'src/account/account';
-import { ManagerService } from 'src/manager/manager.service';
+import { ClientRepository } from '../_repositories/client.repository';
+import { Account } from '../account/account';
+import { ManagerService } from '../manager/manager.service';
 import { Client } from './client';
->>>>>>> feature/s04
 
 @Injectable()
 export class ClientService {
 
-<<<<<<< HEAD
-    
-=======
     private ClientIdCounter: number;
 
     constructor (
@@ -74,5 +66,4 @@ export class ClientService {
 
         return client
     }
->>>>>>> feature/s04
 }

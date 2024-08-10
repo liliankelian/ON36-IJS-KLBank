@@ -1,12 +1,9 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { Account } from 'src/account/account';
-import { Client } from 'src/client/client';
-import { ClientService } from 'src/client/client.service';
-import { Fisical } from 'src/person/fisical';
+import { Account } from '../account/account';
+import { Fisical } from '../person/fisical';
 import { ClientFisical } from './client-fisical';
-import { ClientFisicalRepository } from 'src/_repositories/client-fisical.repository';
-import { ClientRepository } from 'src/_repositories/client.repository';
-import { ManagerService } from 'src/manager/manager.service';
+import { ClientFisicalRepository } from '../_repositories/client-fisical.repository';
+import { ManagerService } from '../manager/manager.service';
 
 @Injectable()
 export class ClientFisicalService {

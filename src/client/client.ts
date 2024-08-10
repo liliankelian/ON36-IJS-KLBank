@@ -1,7 +1,4 @@
-import { Fisical } from "src/person/fisical"
-import { Company } from "src/person/company"
-import { Account } from "src/account/account";
-import { Manager } from "src/manager/manager";
+import { Account } from "../account/account";
 
 export class Client {
     ID:number;

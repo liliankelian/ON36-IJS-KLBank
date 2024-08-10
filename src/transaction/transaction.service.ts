@@ -1,8 +1,8 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { TransactionRepository } from 'src/_repositories/transaction.repository';
+import { TransactionRepository } from '../_repositories/transaction.repository';
 import { Transaction } from './transaction';
 import { TransactionType } from './transaction.type';
-import { SavingsAccountService } from 'src/savings-account/savings-account.service';
+import { SavingsAccountService } from '../savings-account/savings-account.service';
 
 @Injectable()
 export class TransactionService {

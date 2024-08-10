@@ -1,16 +1,11 @@
 import { Module } from '@nestjs/common';
-<<<<<<< HEAD
-import { ManagerController } from './manager.controller';
-
-@Module({
-=======
 import { ManagerService } from './manager.service';
 import { ManagerController } from './manager.controller';
-import { ManagerRepository } from 'src/_repositories/manager.repository';
+import { ManagerRepository } from '../_repositories/manager.repository';
+import { Fisical } from '../person/fisical';
 
 @Module({
-  providers: [ManagerService,ManagerRepository],
->>>>>>> feature/s04
+  providers: [ManagerService,ManagerRepository, Fisical],
   controllers: [ManagerController]
 })
 export class ManagerModule {}

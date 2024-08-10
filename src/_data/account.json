@@ -43,5 +43,26 @@
     "clientID": 1,
     "type": "checking",
     "limit": 200
+  },
+  {
+    "ID": 4,
+    "balance": 0,
+    "clientID": 10,
+    "type": "savings",
+    "rate": 0.2
+  },
+  {
+    "ID": 5,
+    "balance": 0,
+    "clientID": 10,
+    "type": "savings",
+    "rate": 0.2
+  },
+  {
+    "ID": 6,
+    "balance": 0,
+    "clientID": 10,
+    "type": "savings",
+    "rate": 0.2
   }
 ]

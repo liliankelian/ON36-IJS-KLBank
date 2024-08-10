@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-import { Injectable } from '@nestjs/common';
-
-@Injectable()
-export class ManagerService {}
-=======
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { ManagerRepository } from 'src/_repositories/manager.repository';
-import { Client } from 'src/client/client';
+import { ManagerRepository } from '../_repositories/manager.repository';
+import { Client } from '../client/client';
 import { Manager } from './manager';
 
 @Injectable()
@@ -93,4 +87,3 @@ export class ManagerService {
 
 
 }
->>>>>>> feature/s04

@@ -1,31 +1,27 @@
 import { Injectable } from "@nestjs/common";
 import { Account } from "./account";
-import { SavingsAccount } from "src/savings-account/savings-account";
-import { SavingsAccountService } from "src/savings-account/savings-account.service";
-import { CheckingAccountService } from "src/checking-account/checking-account.service";
+import { SavingsAccount } from "../savings-account/savings-account";
 import { AccountType } from "./account.type";
-import { CheckingAccount } from "src/checking-account/checking-account";
+import { CheckingAccount } from "../checking-account/checking-account";
 
 @Injectable()
 export class AccountFactory{
-    constructor(
-        private readonly savingsService: SavingsAccountService,
-        private readonly checkingService: CheckingAccountService
 
-    ){}
+    constructor(){}
+
     createAccount(
         type: AccountType,
         ID: number,
-        clientID:number, 
-        balance:number,
-        rate?:number,
-        limit?:number
+        clientID:number
     ):Account{
+        const defaultBalance = 0
         switch (type) {
             case AccountType.savings: 
-                return new SavingsAccount(ID,balance,clientID,rate)
+                const defaultRate = 0.2
+                return new SavingsAccount(ID,defaultBalance,clientID,defaultRate)
             case AccountType.checking: 
-                return new CheckingAccount(ID,balance,clientID,limit)
+                const defaultLimit = 500
+                return new CheckingAccount(ID,defaultBalance,clientID,defaultLimit)
             default:
                 throw new Error('Invalid account type');
         }

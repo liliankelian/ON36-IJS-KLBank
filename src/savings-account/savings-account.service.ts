@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { SavingsAccount } from './savings-account';
-import { SavingsAccountRepository } from 'src/_repositories/savings-account.repository';
-import { ClientService } from 'src/client/client.service';
+import { SavingsAccountRepository } from '../_repositories/savings-account.repository';
+import { ClientService } from '../client/client.service';
 
 @Injectable()
 export class SavingsAccountService {

@@ -1,5 +1,8 @@
+import { Injectable } from "@nestjs/common";
 import { Person } from "./person";
 
+
+@Injectable()
 export class Company extends Person{
     CNPJ:string;
     razaoSocial:string;

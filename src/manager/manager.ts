@@ -1,5 +1,5 @@
-import { Client } from "src/client/client";
-import { Fisical } from "src/person/fisical";
+import { Client } from "../client/client";
+import { Fisical } from "../person/fisical";
 
 export class Manager extends Fisical {
     ID:number

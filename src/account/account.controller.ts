@@ -11,13 +11,10 @@ export class AccountController {
     @Post()
     create( 
         @Body('type') type : AccountType,
-        @Body('clientID', ParseIntPipe) clientID: number, 
-        @Body('balance', ParseIntPipe) balance : number, 
-        @Body('isManager',ParseBoolPipe) isManager: boolean,
-        @Body('rate') rate? :number,
-        @Body('limit') limit? : number
+        @Body('clientID', ParseIntPipe) clientID: number,  
+        @Body('isManager',ParseBoolPipe) isManager: boolean
         
     ): Account{
-        return this.accountService.createAccount(type, clientID, balance, isManager, rate, limit)
+        return this.accountService.createAccount(type, clientID, isManager)
     }
 }

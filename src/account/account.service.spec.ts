@@ -1,18 +1,24 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { AccountRepository } from '../_repositories/account.repository';
 import { AccountService } from './account.service';
+import { AccountFactory } from './account.factory';
+import { AccountType } from './account.type';
+import { SavingsAccount } from '../savings-account/savings-account';
 
 describe('AccountService', () => {
   let service: AccountService;
 
-  beforeEach(async () => {
-    const module: TestingModule = await Test.createTestingModule({
-      providers: [AccountService],
-    }).compile();
+  test('Criar uma conta poupança pelo serviço', () => {
+    const accountRepository = new AccountRepository()
+    const accountFactory = new AccountFactory()
 
-    service = module.get<AccountService>(AccountService);
-  });
+    const accountService = new AccountService(accountRepository,accountFactory)
 
-  it('should be defined', () => {
-    expect(service).toBeDefined();
-  });
+    const resultado = accountService.createAccount(AccountType.savings,10,true)
+
+    const esperado = new SavingsAccount(6,0,10,0.2)
+
+    expect(resultado).toStrictEqual(esperado)
+
+  })
+  
 });

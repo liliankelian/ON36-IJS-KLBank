@@ -1,6 +1,6 @@
 import { Fisical } from "../person/fisical";
 import { Client } from "../client/client";
-import { Account } from "src/account/account";
+import { Account } from "../account/account";
 
 export class ClientFisical extends Client{
     fisical: Fisical;

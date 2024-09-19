@@ -1,0 +1,1 @@
+{"version":3,"file":"client-company.js","sourceRoot":"","sources":["../../../src/client-company/client-company.ts"],"names":[],"mappings":";;;AACA,6CAA0C;AAG1C,MAAa,aAAc,SAAQ,eAAM;IAErC,YAAY,QAAe,EAAE,SAAiB,EAAE,QAAmB,EAAE,OAAe;QAChF,KAAK,CAAC,QAAQ,EAAE,SAAS,EAAE,QAAQ,CAAC,CAAC;QACrC,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;IAC3B,CAAC;CACJ;AAND,sCAMC"}
